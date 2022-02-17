@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html><head>
+<title>@htmlcoding_html_coding_free</title>
+<meta name="viewport"content="width=device-width,initial-scale=1"></meta>
+<script src="https://cdn.radiantmediatechs.com/rmp/5.10.2/js/rmp.min.js"></script>    
+<div class="row">
+<div class="col-sm-12">
+<div class="rmp-playlist-container">
+<div class="rmp-playlist-player-wrapper">
+<div id="rmpPlayer"></div>
+<style>
+body{
+height:100%;
+width:100%;
+margin:0;
+padding:0;
+background:#fff;
+}
+</style>
+</head> 
+
+<!-- { src: 
+{ hls:"#"}, "contentMetadata": 
+{ "title": "#", "description": "#", "thumbnail":"#", "poster": [ "#" ] },}, -->
+   
+<script> var playlistData =  [
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/391.m3u8"}, 
+"contentMetadata": { 
+"title": "Caracol", 
+"description": "CFPLAYTV", 
+"thumbnail":"https://blogger.googleusercontent.com/img/a/AVvXsEhHTTGm8-b0Y601WKnNzd9WdKtnaOuzhZlvtpLJ1AGGSfGrsZjDNeXSPkpTBT7HArmCIcuVz8JNg4OFyMnk03B_nFXrTf4pc9Tg_e91RVijShno8R39rB0p6qmfcI9jS60_kECoKGLSX0aZErDwGJYC_Pdqv4M0SInDyM8lIAOQaegrpQif7NsFpipo=s125", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/390.m3u8"}, 
+"contentMetadata": { 
+"title": "RCN", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/rcn.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/92.m3u8"}, 
+"contentMetadata": { 
+"title": "TELEMUNDO", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/telemundo.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/832.m3u8"}, 
+"contentMetadata": { 
+"title": "TELENOVELAS", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/tlnovelas.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/179.m3u8"}, 
+"contentMetadata": { 
+"title": "Warner Channel HD", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/warnerchannel.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/179.m3u8"}, 
+"contentMetadata": { 
+"title": "TNT", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/tnt.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/179.m3u8"}, 
+"contentMetadata": { 
+"title": "TNT", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/tnt.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/650.m3u8"}, 
+"contentMetadata": { 
+"title": "TNT Series", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/tntseries.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/675.m3u8"}, 
+"contentMetadata": { 
+"title": "Two And a Half Men 24/7", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/twoandhalfmen.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },}
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/1.m3u8"}, 
+"contentMetadata": { 
+"title": "A&E", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/ae.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/474.m3u8"}, 
+"contentMetadata": { 
+"title": "A&E HD", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/ae.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/734.m3u8"}, 
+"contentMetadata": { 
+"title": "A&E Sur", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/ae.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/444.m3u8"}, 
+"contentMetadata": { 
+"title": "A3Series", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/a3series.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/750.m3u8"}, 
+"contentMetadata": { 
+"title": "Fox", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/fox.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/652.m3u8"}, 
+"contentMetadata": { 
+"title": "Star Life", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/star_life.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://tv.teleclub.xyz/live/HLS_01/GOLDEN/index.m3u8"}, 
+"contentMetadata": { 
+"title": "Golden", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/golden.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/58.m3u8"}, 
+"contentMetadata": { 
+"title": "Golden Edge", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/goldenedge.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://tv.teleclub.xyz/live/HLS_02/GOLDEN_PLUS/index.m3u8"}, 
+"contentMetadata": { 
+"title": "Golden Plus", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/goldenedge.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/137.m3u8"}, 
+"contentMetadata": { 
+"title": "Universal", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/universal.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/830.m3u8"}, 
+"contentMetadata": { 
+"title": "Estudio Universal", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/studiouniversal.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/648.m3u8"}, 
+"contentMetadata": { 
+"title": "SyFy", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/syfy.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/654.m3u8"}, 
+"contentMetadata": { 
+"title": "HBO", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/hbo.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/64.m3u8"}, 
+"contentMetadata": { 
+"title": "HBO +", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/hbo2.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/732.m3u8"}, 
+"contentMetadata": { 
+"title": "HBO 2 HD", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/hbo2.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/63.m3u8"}, 
+"contentMetadata": { 
+"title": "HBO Family", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/hbofamily.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://tv.teleclub.xyz/live/HLS_02/HBO_POP/index.m3u8"}, 
+"contentMetadata": { 
+"title": "HBO POP", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/hboplus.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/841.m3u8"}, 
+"contentMetadata": { 
+"title": "HBO Xtreme", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/hboxtreme.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/447.m3u8"}, 
+"contentMetadata": { 
+"title": "ADN 40", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/adn40.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/878.m3u8"}, 
+"contentMetadata": { 
+"title": "Afizzionados", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/afizzionados.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/426.m3u8"}, 
+"contentMetadata": { 
+"title": "Alf 24/7", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/alf.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/183.m3u8"}, 
+"contentMetadata": { 
+"title": "AMC", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/amc.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/475.m3u8"}, 
+"contentMetadata": { 
+"title": "AMC HD", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/amc.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/145.m3u8"}, 
+"contentMetadata": { 
+"title": "Sony", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/sony.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/498.m3u8"}, 
+"contentMetadata": { 
+"title": "Sony HD", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/sony.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/83.m3u8"}, 
+"contentMetadata": { 
+"title": "Space", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/space.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/499.m3u8"}, 
+"contentMetadata": { 
+"title": "Space", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/space.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/489.m3u8"}, 
+"contentMetadata": { 
+"title": "Star Chanel", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/star.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/46.m3u8"}, 
+"contentMetadata": { 
+"title": "Star Accion", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/star_action.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/680.m3u8"}, 
+"contentMetadata": { 
+"title": "Star Cinema", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/starz_cinema.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/681.m3u8"}, 
+"contentMetadata": { 
+"title": "Star Comedy", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/starz_comedy.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/682.m3u8"}, 
+"contentMetadata": { 
+"title": "StarZ Encore", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/starz_encoreaction.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/683.m3u8"}, 
+"contentMetadata": { 
+"title": "StarZ Encoreblack", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/starz_encoreblack.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/684.m3u8"}, 
+"contentMetadata": { 
+"title": "StarZ Encore Family", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/starz_encorefamily.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/685.m3u8"}, 
+"contentMetadata": { 
+"title": "StarZ HD", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/starz_hd.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/780.m3u8"}, 
+"contentMetadata": { 
+"title": "America", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/americaperu.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/3.m3u8"}, 
+"contentMetadata": { 
+"title": "Animal Planet", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/animalplanet.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/633.m3u8"}, 
+"contentMetadata": { 
+"title": "Animal Planet HD", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/animalplanet.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/677.m3u8"}, 
+"contentMetadata": { 
+"title": "Animaniacs 24/7", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/animaniacs.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/421.m3u8"}, 
+"contentMetadata": { 
+"title": "Tom y Jerry 24/7", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/tomyjerry.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/95.m3u8"}, 
+"contentMetadata": { 
+"title": "Tooncast", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/tooncast.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/637.m3u8"}, 
+"contentMetadata": { 
+"title": "Cartoon Network HD", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/cartoonnetwork.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/11.m3u8"}, 
+"contentMetadata": { 
+"title": "Cartoonito (Boomerang)", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/cartoonito.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/13.m3u8"}, 
+"contentMetadata": { 
+"title": "CBeebies", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/cbeebies.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/662.m3u8"}, 
+"contentMetadata": { 
+"title": "TrollHunters 24/7", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/trollhunters.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/664.m3u8"}, 
+"contentMetadata": { 
+"title": "Yu-Gi-Oh! 24/7", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/yugioh.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/518.m3u8"}, 
+"contentMetadata": { 
+"title": "Bob Esponja 24/7", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/bobesponja.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/427.m3u8"}, 
+"contentMetadata": { 
+"title": "Caballeros del Zodiaco 24/7", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/caballeroszodiaco.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/269.m3u8"}, 
+"contentMetadata": { 
+"title": "Animed 24h", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/play.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/298.m3u8"}, 
+"contentMetadata": { 
+"title": "Atena 3", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/antena3.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/146.m3u8"}, 
+"contentMetadata": { 
+"title": "AXN", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/axn.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/804.m3u8"}, 
+"contentMetadata": { 
+"title": "AXN Sur", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/axn.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/713.m3u8"}, 
+"contentMetadata": { 
+"title": "AXN Es", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/axn.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/476.m3u8"}, 
+"contentMetadata": { 
+"title": "AXN HD", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/axn.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/714.m3u8"}, 
+"contentMetadata": { 
+"title": "AXN WHITHE", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/axn.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/148.m3u8"}, 
+"contentMetadata": { 
+"title": "AyM Sports", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/aymsports.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/763.m3u8"}, 
+"contentMetadata": { 
+"title": "Bein HD Sports", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/beinsports.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/753.m3u8"}, 
+"contentMetadata": { 
+"title": "BeinSports", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/beinsports.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/9.m3u8"}, 
+"contentMetadata": { 
+"title": "BeinSports HD", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/beinsports.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/761.m3u8"}, 
+"contentMetadata": { 
+"title": "BeinSports Ñ", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/beinsports.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/376.m3u8"}, 
+"contentMetadata": { 
+"title": "BeinSports Ñ HD", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/beinsports.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/206.m3u8"}, 
+"contentMetadata": { 
+"title": "CDN SportsMAX", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/cdnsportsmax.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/328.m3u8"}, 
+"contentMetadata": { 
+"title": "Claro Sports", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/clarosports.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/259.m3u8"}, 
+"contentMetadata": { 
+"title": "DirectTV Sports", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/directvsports.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/667.m3u8"}, 
+"contentMetadata": { 
+"title": "DirectTV Sports 2", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/directvsports2.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/879.m3u8"}, 
+"contentMetadata": { 
+"title": "DirectTV Sports", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/directvsports.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/34.m3u8"}, 
+"contentMetadata": { 
+"title": "ESPN", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/espn.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/35.m3u8"}, 
+"contentMetadata": { 
+"title": "ESPN 2", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/espn2.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/484.m3u8"}, 
+"contentMetadata": { 
+"title": "ESPN 2 HD", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/espn.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/531.m3u8"}, 
+"contentMetadata": { 
+"title": "ESPN 2 MX", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/espn.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/485.m3u8"}, 
+"contentMetadata": { 
+"title": "ESPN 3 HD", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/espn3.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/842.m3u8"}, 
+"contentMetadata": { 
+"title": "ESPN Chile", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/espn.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/37.m3u8"}, 
+"contentMetadata": { 
+"title": "ESPN Plus", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/espnplus.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/487.m3u8"}, 
+"contentMetadata": { 
+"title": "ESPN Plus HD", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/espnplus.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/764.m3u8"}, 
+"contentMetadata": { 
+"title": "Tigo Sports", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/tigosports.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/192.m3u8"}, 
+"contentMetadata": { 
+"title": "Formula 1 TV", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/f1.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/52.m3u8"}, 
+"contentMetadata": { 
+"title": "Fox Sports", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/foxsports.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/292.m3u8"}, 
+"contentMetadata": { 
+"title": "Win Sports", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/winsports.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/881.m3u8"}, 
+"contentMetadata": { 
+"title": "Win Sports +", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/winsportsplus.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/509.m3u8"}, 
+"contentMetadata": { 
+"title": "TNT Sports", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/tntsports.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+{ src: 
+{ hls:"http://user.tvcluboficial.com/stream/free_moreno_Ibarra/CU3/764.m3u8"}, 
+"contentMetadata": { 
+"title": "Tigo Sports", 
+"description": "CFPLAYTV", 
+"thumbnail":"http://x.playerlatino.live/tigosports.png", 
+"poster": [ "https://blogger.googleusercontent.com/img/a/AVvXsEivmJEGpYzHsL-V6BX6LFc-wBYvJ4j4ki6RcV-SFBCD_KEbvvYmI8aVFP-Ga_p0O8_7JgRWFb2-72BUIPfvoUuhUvz-KdNWlTN-7dFmSqWq9OUYlYDPuAoI0YGDbK_Xa_IhhoTnBveXj8UAf_EQuK286DeTnfdxaRtPY2-5Fv1lwcOF0Rdi2Tv9SxP_=s1004" ] },},
+
+
+];var settings = {
+licenseKey: 'Kl8lbz16cz1rN2l2enM9Z2M9NnZvMnllaT9yb201ZGFzaXMzMGRiMEElXyo=',
+skin: 's3',
+posterScaleMode: 'stretch',
+automaticFullscreenOnLandscape: true,
+preload: 'nono',
+playlistUpNextAutoplay: true,
+playlistEndedLoop: false,
+playlistData: playlistData
+};var elementID = 'rmpPlayer'; var rmp = new RadiantMP(elementID); rmp.init(settings); 
+</script> 
+</div>
+</div>
+</div>
+</body> 
+</html>    
