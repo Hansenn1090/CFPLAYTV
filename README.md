@@ -1,2 +1,2 @@
 # CFPLAYTV
-Con CFPLAYTV puedes ver te Gratis
+Con CFPLAYTV puedes ver televisión Gratis
